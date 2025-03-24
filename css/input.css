@@ -71,7 +71,8 @@ body {
     }
 
     .bg-telegram {
-        background: none;
+        background-image: url(../img/bg-mobile-tg@1x.jpg);
+        background-position: bottom center;
     }
 }
 
@@ -83,7 +84,8 @@ body {
         }
 
         .bg-telegram {
-            background: none;
+            background-image: url(../img/bg-mobile-tg@2x.jpg);
+            background-position: bottom center;
         }
     }
 }
