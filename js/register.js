@@ -9,7 +9,7 @@
     joinButton.disabled = true;
     await statistics.onClickTgBtn();
     joinButton.disabled = false;
-    window.location.href = 'https://t.me/zebodoctor_sbf1';
+    window.location.href = 'https://t.me/+-anOngXRXHw5Y2M6';
   })
 
   if (user && user?.name && user?.phone && user?.time) {
@@ -21,7 +21,7 @@
     formData.append(`Foydalanuvchi ID`, statistics.userId);
     formData.append(`Timestamp`, statistics.time?.toString());
 
-    let response = await fetch('https://script.google.com/macros/s/AKfycbwYSHV5hd015-U5k6yGThwneljnpqGz3gGTlOpFnV7W-EO7M_2LQ0JUaiS2S6W1cmW6tA/exec', {
+    let response = await fetch('https://script.google.com/macros/s/AKfycbwk32Db9qSl3KFD7ZMtKzGKx1ldrX-O1_hxupJJZ0N5Z6gSJxQYVu2sDhfUE9g7rEm6/exec', {
       method: 'POST',
       body: formData
     })
