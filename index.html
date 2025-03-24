@@ -67,18 +67,18 @@
             class="flex items-center flex-col 500px:flex-row justify-between gap-[12px] py-[12px] px-[20px] rounded-[16px] 800px:rounded-[20px] 1200:rounded-[28px] shadow bg-[rgb(255,255,255)] border border-[#DFEDF4] text-[#28424E]">
             <div class="text-[14px] font-medium leading-[1.2] text-center 500px:text-left">Hoziroq ro‘yxatdan o‘ting! Joylar cheklangan!</div>
 
-            <div class="flex items-center gap-[8px] leading-[1]">
+            <div class="flex items-center gap-[8px] leading-[1]" data-timer>
               <img class="w-[28px]" src="img/timer.png" alt="">
 
               <div class="flex flex-col gap-[4px] text-center">
-                <div class="font-staatliches text-[24px]">01</div>
+                <div class="font-staatliches text-[24px]" data-minutes>01</div>
                 <div class="text-[12px]">daqiqa</div>
               </div>
 
               <div class="w-[1px] h-[20px] bg-[#DFEDF4] shrink-0"></div>
 
               <div class="flex flex-col gap-[4px] text-center">
-                <div class="font-staatliches text-[24px]">01</div>
+                <div class="font-staatliches text-[24px]" data-seconds>59</div>
                 <div class="text-[12px]">soniya</div>
               </div>
             </div>
@@ -117,18 +117,18 @@
           class="flex items-center justify-between gap-[24px] py-[12px] px-[20px] rounded-[16px] 800px:rounded-[20px] 1200:rounded-[28px] shadow bg-[rgb(255,255,255)] border border-[#DFEDF4] text-[#28424E]">
           <div class="text-[18px] font-medium">Hoziroq ro‘yxatdan o‘ting! Joylar cheklangan!</div>
 
-          <div class="flex items-center gap-[16px] leading-[1]">
+          <div class="flex items-center gap-[16px] leading-[1]" data-timer>
             <img class="w-[40px] mr-[12px]" src="img/timer.png" alt="">
 
             <div class="flex flex-col gap-[4px] text-center">
-              <div class="font-staatliches text-[32px]">01</div>
+              <div class="font-staatliches text-[32px]" data-minutes>01</div>
               <div class="text-[12px]">daqiqa</div>
             </div>
 
             <div class="w-[1px] h-[30px] bg-[#DFEDF4]"></div>
 
             <div class="flex flex-col gap-[4px] text-center">
-              <div class="font-staatliches text-[32px]">01</div>
+              <div class="font-staatliches text-[32px]" data-seconds>59</div>
               <div class="text-[12px]">soniya</div>
             </div>
           </div>
@@ -180,6 +180,7 @@
 </div>
 
 <script src="js/statistics.js"></script>
+<script src="js/timer.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
