@@ -96,9 +96,8 @@ body {
 
 .main-button {
     font-family: 'Staatliches', sans-serif;
-    cursor: pointer;
     background: linear-gradient(180deg, #33ACD4 0%, #027398 100%);
-    @apply relative overflow-hidden rounded-full uppercase h-[70px] 800px:h-[80px] 1200px:h-[90px] text-[#fff] text-[28px] 800px:text-[32px] 1200px:text-[40px] cursor-pointer;
+    @apply flex items-center justify-center relative overflow-hidden rounded-full uppercase h-[70px] 800px:h-[80px] 1200px:h-[90px] text-[#fff] text-[28px] 800px:text-[32px] 1200px:text-[40px] cursor-pointer;
 }
 
 .submit-button {
@@ -130,6 +129,31 @@ body {
     }
     100% {
         transform: translateX(100%) rotate(45deg);
+    }
+}
+
+.gift-container {
+    position: relative;
+    cursor: pointer;
+    animation: shake 0.5s ease-in-out infinite;
+}
+
+.gift {
+    transition: transform 0.3s ease-in-out;
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-5deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+    75% {
+        transform: rotate(-3deg);
     }
 }
 
