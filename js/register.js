@@ -9,7 +9,7 @@
     joinButton.disabled = true;
     await statistics.onClickTgBtn();
     joinButton.disabled = false;
-    window.location.href = 'https://t.me/+Vd4GWoYhkZwzYmMy';
+    window.location.href = 'https://t.me/+DuR4Gjnz3Xc3NjUy';
   })
 
   if (user && user?.name && user?.phone && user?.time) {
