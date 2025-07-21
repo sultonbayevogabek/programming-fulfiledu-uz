@@ -1,7 +1,7 @@
 'use strict';
 
 class Statistics {
-  PROJECT_NAME = 'programming-fulfiledu-uz-21-22-iyul-2025';
+  PROJECT_NAME = 'programming-fulfiledu-uz-1-2-avgust-2025';
   DB_URL = 'https://webinar-statistics-default-rtdb.firebaseio.com/';
   ENTERED_DB = `${this.DB_URL}${this.PROJECT_NAME}-entered.json`;
   CLICKED_REG_BTN_DB = `${this.DB_URL}${this.PROJECT_NAME}-clicked-reg-btn.json`;
